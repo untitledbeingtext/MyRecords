@@ -1,1 +1,1 @@
-console.log("Welcome to Lee So Young's portfolio site!");
+console.log("Welcome to Bangyoo's portfolio site!");

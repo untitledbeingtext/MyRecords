@@ -1,76 +1,54 @@
+/* Basic Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.special-gothic-expanded-one-regular {
-  font-family: "Special Gothic Expanded One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
 
 body {
-  font-family: "Special Gothic Expanded One", sans-serif;
-  background-color: #0057FF;
-  color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 1200px;
-  padding: 40px;
-}
-
-.left, .center, .right {
-  flex: 1;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f5f5f5;
+  color: #333;
   padding: 20px;
 }
 
-.korean {
-  font-size: 1.5rem;
-  line-height: 2.2rem;
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
 }
 
-.subtitle {
-  font-family: "Special Gothic Expanded One";
-  font-size: 2rem;
-  color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 0.5rem;
+header h1 {
+  text-align: center;
 }
 
-h1 {
-  font-size: 4rem;
-  font-weight: bold;
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
-.dot {
-  color: white;
+nav ul li {
+  margin: 0 15px;
 }
 
-.bangyoo {
-  text-align: right;
-  font-size: 1.2rem;
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.name {
-  font-weight: bold;
-  font-size: 1.4rem;
+main {
+  margin: 40px auto;
+  max-width: 800px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
 }
 
-.contact {
-  margin-top: 20px;
-  text-align: right;
-  font-size: 0.95rem;
-}
-
-.contact-label {
-  font-weight: bold;
-  margin-bottom: 5px;
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #555;
 }

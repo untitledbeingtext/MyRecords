@@ -1,1 +1,7 @@
-console.log("Welcome to Bangyoo's portfolio site!");
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('clickMeBtn');
+  btn.addEventListener('click', () => {
+    alert('Button clicked!');
+  });
+});
+

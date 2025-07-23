@@ -10,7 +10,7 @@
 
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Special Gothic Expanded One", sans-serif;
   background-color: #0057FF;
   color: white;
   height: 100vh;
@@ -39,7 +39,7 @@ body {
 }
 
 .subtitle {
-  font-family: cursive;
+  font-family: "Special Gothic Expanded One";
   font-size: 2rem;
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 0.5rem;

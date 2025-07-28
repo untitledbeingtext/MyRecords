@@ -1,0 +1,83 @@
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+body {
+    font-family: "Courier Prime", monospace;
+    background-image: url(img/white-recycle-paper-texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    font-family:"Courier Prime";
+}
+.empty-place {
+    float: left;
+    text-align: left;
+    width: 10%;
+}
+.table-of-content {
+    text-align: right;
+    float: right;
+    width: 90%;
+}
+.mega {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+    width: 30%;
+    height: 150px;
+}
+.sub {
+    float: right;
+    width: 70%;
+    height: 150px;
+}
+.sub-chapter {
+    height: 30px;
+}
+.mega-number {
+    width: 30%;
+    float: left;
+}
+.mega-content {
+    width: 70%;
+    float: right;
+}
+.sub {
+    vertical-align: top;
+    margin-top: 0px;
+    text-align: left;
+}
+.sub-number {
+    margin-top: 0px;
+    width: 10%;
+    float: left;
+}
+.sub-content {
+    margin-top: 0px;
+    width: 90%;
+    float: right;
+}

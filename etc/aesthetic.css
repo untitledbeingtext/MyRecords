@@ -1,0 +1,152 @@
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+body {
+    font-family: "Courier Prime", monospace;
+    background-image: url(img/white-recycle-paper-texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body:hover {
+    cursor: pointer;
+}
+.empty-place {
+    float: left;
+    text-align: left;
+    width: 10%;
+}
+.table-of-content {
+    margin-left: 20px;
+    float: right;
+    width: 90%;
+}
+.content {
+    height: 180px;
+    align-items: center;
+}
+.mega {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+    width: 30%;
+}
+.sub {
+    float: right;
+    width: 70%;
+}
+.sub-chapter {
+    height: 33%;
+    align-content: center;
+}
+.sub-left {
+    float: left;
+    width: 15%;
+}
+.sub-right {
+    float: right;
+    width: 85%;
+}
+.mega-number {
+    font-weight: bold;
+    width: 20%;
+    float: left;
+}
+.mega-content {
+    font-weight: bold;
+    width: 80%;
+    float: right;
+}
+.sub {
+    vertical-align: top;
+    margin-top: 0px;
+    text-align: left;
+}
+.sub-number {
+    margin-top: 0px;
+    width: 50%;
+    float: left;
+}
+.slash {
+    text-align: center;
+    width: 50%;
+    float: right;
+}
+.sub-content {
+    margin-top: 0px;
+    width: 90%;
+    float: left;
+}
+.sub-content:hover {
+    background-image: url(img/black.png);
+    color: #d8ff00;
+    padding: 2px;
+    transition: 0.5s;
+}
+.page {
+    float: right;
+    width: 10%;
+    text-align: right;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.recipe {
+    font-size: 15px;
+}
+.cake {
+    background-color: #d8ff00;
+    width: 90%;
+}
+.very-first {
+    height: 150px;
+}
+.information {
+    background-image: url(img/black.png);
+    height: 100px;
+    width: 90%;
+    float: right;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center; align-self: center;
+}
+.logo {
+    margin-left: 10px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-image:url(img/white-recycle-paper-texture.jpg) ;
+}
+.box {
+    padding: auto;
+    color: rgb(223, 223, 223);
+    margin-right: 15px;
+    align-content: center;
+    float: right;
+    width: 75%;
+    font-size: 10px;
+}
